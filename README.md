@@ -49,13 +49,13 @@ JAGS https://mcmc-jags.sourceforge.io/
 
 - `data.RData` R data object containing the bird surveys data needed to run the MSAM model. The output of the model is not included because the file is too large for storage on github.
 
-- `msam_analysis.R` Code containing the JAGS model to run the MSAM analysis, which is used to compute estimated true abundance for species at different sites.
+- `msam_longitudinal_model.R` Code containing the JAGS model to run the MSAM analysis, which is used to compute estimated true abundance for species at different sites.
 
 2. Relationship between files, if important: 
-The RData file "data.RData" is needed to run the MSAM analysis with the "msam_analysis.R" file. 
+The RData file "data.RData" is needed to run the MSAM analysis with the "msam_longitudinal_model" file. 
 
 
-### DATA-SPECIFIC INFORMATION FOR: `data_and_output.RData`
+### DATA-SPECIFIC INFORMATION FOR: `data.RData`
 
 1. Number of variables: NA
 
